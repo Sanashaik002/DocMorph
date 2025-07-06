@@ -1,0 +1,5 @@
+streamlit
+pandas
+numpy
+pdf2docx
+PyPDF2

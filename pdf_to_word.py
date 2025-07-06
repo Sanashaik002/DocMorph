@@ -6,10 +6,6 @@ import tempfile
 import os
 import io
 
-LOGO_PATH = Path(__file__).parent / "logo.png"
-
-st.set_page_config(page_title="DocMorph", page_icon=str(LOGO_PATH))
-
 st.title("📄 PDF ➜ Word Converter")
 uploaded_file = st.file_uploader("Upload a PDF",type = ["pdf"])
 
